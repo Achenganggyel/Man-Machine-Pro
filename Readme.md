@@ -2,7 +2,8 @@
 
 #### 赵阳
 
-<pr><pr>
+<pr>
+<pr>
 
 
 **本仓库包含**
@@ -19,13 +20,26 @@ RecognizeMN：项目3-多数字验证码识别
 
 <-- 进入不同文件夹（如drawboard2.0）即可按照以下1，2，3运行 --> 
 
-<pr><pr><pr>
+<pr>
+<pr>
+<pr>
 
 ## 0. 环境
 
+fabric: 5.3.0
+  
+vue: 3.2.13
 
+python: 3.9.12
+  
+flask: 2.2.2
+  
+scikit-learn: 1.2.0
+  
+tensorflow-cpu: 2.6.0
 
-
+<br>
+  
 ## 1. 项目1-画板
 
 本项目使用vue3+fabric.js
