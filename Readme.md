@@ -3,7 +3,6 @@
 #### 赵阳
 
 <pr>
-<pr>
 
 
 **本仓库包含**
@@ -20,8 +19,6 @@ RecognizeMN：项目3-多数字验证码识别
 
 <-- 进入不同文件夹（如drawboard2.0）即可按照以下1，2，3运行 --> 
 
-<pr>
-<pr>
 <pr>
 
 ## 0. 环境
@@ -62,6 +59,8 @@ Step 3. 查看
 
 <br>
 
+<br>
+
 ## 2. 项目2-单手写数字识别
 
 本项目使用flask
@@ -75,6 +74,10 @@ python -m flask run
 Step 2. 查看
 
 ![drawboard](./screenshots/RecognizeSN_flask.png)
+
+<br>
+
+<br>
 
 ## 3. 项目3-多数字验证码识别
 
