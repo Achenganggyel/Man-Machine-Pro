@@ -82,3 +82,4 @@ python predict.py testing/267221.png
 
 Step 3. 查看终端的结果
 
+![drawboard](./screenshots/RecognizeMN.png)
