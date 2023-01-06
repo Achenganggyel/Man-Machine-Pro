@@ -69,8 +69,8 @@
             icon: require('./assets/icons/draw/10.png')
           },
           {
-            name: 'remove',
-            icon: require('./assets/icons/draw/del.png')
+            name: 'select',
+            icon: require('./assets/icons/draw/mouse.png')
           },
           {
             name: 'undo',
@@ -82,7 +82,7 @@
           },
           {
             name: 'reset',
-            icon: require('./assets/icons/draw/mouse.png')
+            icon: require('./assets/icons/draw/del.png')
           },
         ],
         mouseFrom:{},
@@ -237,7 +237,7 @@
           case 'pencil':
             this.fabricObj.isDrawingMode = true;
             break;
-          case 'remove':
+          case 'select':
             this.fabricObj.selection = true
             this.fabricObj.skipTargetFind = false
             this.fabricObj.selectable = true
@@ -307,10 +307,10 @@
             // 椭圆
             fabricObject = this.drawEllipse()
             break;
-          case "equilateral": //等边三角形
+          case "triangle": //等边三角形
             fabricObject = this.drawTriangle()
             break;
-          case 'remove':
+          case 'select':
             break;   
           default:
             // statements_def'
