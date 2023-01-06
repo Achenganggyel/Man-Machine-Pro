@@ -1,9 +1,12 @@
 #人机交互大作业 | 运行方式
 
+<br>
+
 #### 赵阳
 
-<pr><pr>
+<br>
 
+<br>
 
 **本仓库包含**
 
@@ -19,13 +22,26 @@ RecognizeMN：项目3-多数字验证码识别
 
 <-- 进入不同文件夹（如drawboard2.0）即可按照以下1，2，3运行 --> 
 
-<pr><pr><pr>
+<pr>
+  
+<br>  
 
 ## 0. 环境
 
+fabric: 5.3.0
+  
+vue: 3.2.13
 
+python: 3.9.12
+  
+flask: 2.2.2
+  
+scikit-learn: 1.2.0
+  
+tensorflow-cpu: 2.6.0
 
-
+<br>
+  
 ## 1. 项目1-画板
 
 本项目使用vue3+fabric.js
@@ -48,6 +64,8 @@ Step 3. 查看
 
 <br>
 
+<br>
+
 ## 2. 项目2-单手写数字识别
 
 本项目使用flask
@@ -61,6 +79,10 @@ python -m flask run
 Step 2. 查看
 
 ![drawboard](./screenshots/RecognizeSN_flask.png)
+
+<br>
+
+<br>
 
 ## 3. 项目3-多数字验证码识别
 
